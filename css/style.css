@@ -1,0 +1,427 @@
+/* common css start */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+input,
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+/* common css end */
+
+/* nav css start */
+
+#primary-nav #menu ul li a {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 15px;
+    color: #353535;
+    padding: 5px 22px;
+    text-transform: uppercase;
+    line-height: 30px;
+    position: relative;
+}
+
+#primary-nav #menu ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #353535;
+    height: 1px;
+    transition: .5s;
+}
+
+#primary-nav #menu ul li a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+/* nav css end */
+
+/* hero css start */
+
+#hero .hero-box h5 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;
+    margin-top: 150px;
+}
+
+#hero .hero-box h5::after {
+    content: '\e05d';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    color: #FFD233;
+}
+
+#hero .hero-box h3 {
+    color: #353535;
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+#hero .hero-box p {
+    color: #353535;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 180%;
+    margin-top: 12px;
+}
+
+#hero .hero-box .clear {
+    color: #353535;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 69px;
+    width: 209px;
+    height: 69px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+#hero .hero-box {
+    position: relative;
+}
+
+#hero .hero-box .clear:hover {
+    background: #FC0;
+    color: #ffff;
+    border: none;
+}
+
+#hero .hero-box .herocard ul li {
+    color: #353535;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 180%;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+#hero .hero-box .herocard ul li i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    background: none;
+    background-color: #F4F3F3;
+    color: #353535;
+}
+
+#hero .hero-box .herocard ul li i:hover {
+    background-color: none;
+}
+
+#hero .hero-box img {
+    margin-top: 70px;
+    transform: translateX(150px);
+}
+
+/* hero css start */
+
+/* about css start */
+
+#about {
+    margin-top: 144px;
+    background: linear-gradient(95deg, #FC0 -21.46%, #FFDD54 34.2%, #FFDF61 42.55%, #FFE372 53.68%, #FFE684 65.51%, #FFE98F 72.47%, #FFEA94 77.34%, #FFEDA6 88.47%, #FFF5CB 112.13%);
+}
+
+#about .about-box h3 {
+    margin-top: 70px;
+    color: #353535;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#about .about-box p {
+    color: #353535;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 190%;
+    margin-top: 13px;
+}
+
+#about .about-box .about-a {
+    color: #353535;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 180%;
+    margin-top: 30px;
+    padding: 20px 44px;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+
+#about .about-box .about-a:hover {
+    background: #FC0;
+    color: #ffff;
+    border: none;
+}
+
+#about .about-box .about-img1 {
+    width: 100%;
+    margin: 33px 0px 0px 0px;
+}
+
+#about .about-box {
+    position: relative;
+}
+
+#about .about-box .about-img {
+    position: absolute;
+    padding-left: 168px;
+    transform: translateY(20px);
+}
+
+/* about css end */
+
+/* perfect css start */
+
+#perfect {
+    margin-top: 150px;
+}
+
+#perfect .perfect-box {
+    text-align: center;
+    border-radius: 20px;
+    background: #ffff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#perfect .perfect-box h4 {
+    color: #353535;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 180%;
+    margin-top: 15px;
+}
+
+#perfect .perfect-box p {
+    color: #7A7A7A;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%;
+    margin-top: 14px;
+}
+
+/* perfect css end */
+
+/* branding css start */
+
+#branding {
+    margin-top: 100px;
+}
+
+#branding .container {
+    background: linear-gradient(95deg, #FC0 -21.46%, #FFDD54 34.2%, #FFDF61 42.55%, #FFE372 53.68%, #FFE684 65.51%, #FFE98F 72.47%, #FFEA94 77.34%, #FFEDA6 88.47%, #FFF5CB 112.13%);
+    border-radius: 30px;
+}
+
+#branding .branding-box .branding-img {
+    padding-top: 20px;
+    transform: translateY(10px);
+}
+
+#branding .branding-box {
+    position: relative;
+}
+
+#branding .branding-box .branding-img1 {
+    position: absolute;
+    margin-top: -30px;
+    padding-left: 340px;
+}
+
+#branding .branding-box h3 {
+    color: #353535;
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+#branding .branding-box p {
+    color: #353535;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 190%;
+    margin-top: 16px;
+}
+
+#branding .branding-box .about-a {
+    color: #353535;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 180%;
+    margin-top: 35px;
+    padding: 20px 44px;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+
+#branding .branding-box .about-a:hover {
+    background: #FC0;
+    color: #ffff;
+    border: none;
+}
+
+#branding .branding-box {
+    position: relative;
+}
+
+#branding .branding-box .branding-img2 {
+    position: absolute;
+    margin-top: -5px;
+    padding-left: 10px;
+}
+
+/* branding css end */
+
+/* help css start */
+
+#help {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#help .help-box ul li {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+    padding: 22px 90px 20px 22px;
+}
+
+#help .help-box ul li #list1 {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 58px;
+    background-color: #55852F;
+    margin-right: 10px;
+}
+
+#help .help-box ul li #list2 {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 58px;
+    background-color: #FEDC2A;
+    margin-right: 10px;
+}
+
+#help .help-box ul li #list3 {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 58px;
+    background-color: #FF8D3A;
+    margin-right: 10px;
+}
+
+#help .help-box h5 {
+    color: #353535;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 180%;
+}
+
+#help .help-box h5 small {
+    color: #353535;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+#help .help-box1 {
+    text-align: right;
+}
+
+#help .help-box1 h3 {
+    color: #353535;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#help .help-box1 p {
+    color: #353535;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 190%;
+    margin-top: 20px;
+}
+
+#help .help-box1 .helpcard {
+    text-align: right;
+}
+
+#help .help-box1 h3 small {
+    color: #353535;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+#help .help-box1 ul li {
+    text-align: right;
+    padding: 30px 0px 30px 140px;
+}
+
+#help .help-box1 ul li h3 {
+    color: #353535;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* help css end */
+
+/* hero css end */
